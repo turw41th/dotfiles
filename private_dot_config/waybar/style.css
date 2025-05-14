@@ -1,0 +1,10 @@
+#workspaces button {
+    font-family: "Tengwar Annatar";
+    font-size: 13px;
+}
+
+#workspaces button.focused {
+    background-color: #444;
+    color: #fff;
+}
+
