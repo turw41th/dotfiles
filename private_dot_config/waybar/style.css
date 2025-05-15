@@ -1,3 +1,4 @@
+/*
 #workspaces button {
     font-family: "Tengwar Annatar";
     font-size: 13px;
@@ -7,12 +8,15 @@
     background-color: #444;
     color: #fff;
 }
+*/
+
 
 * {
     /* `otf-font-awesome` is required to be installed for icons */
-    font-family: JetBrains Nerd Font, Roboto, Helvetica, Arial, sans-serif;
+    /*font-family: JetBrains Nerd Font, Roboto, Helvetica, Arial, sans-serif, Tengwar Annatar;*/
     font-size: 13px;
 }
+
 
 window#waybar {
     background-color: rgba(43, 48, 59, 0.5);
@@ -26,14 +30,15 @@ window#waybar.hidden {
     opacity: 0.2;
 }
 
-/*
+
 window#waybar.empty {
     background-color: transparent;
 }
 window#waybar.solo {
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
+    background-color: transparent;
 }
-*/
+
 
 window#waybar.termite {
     background-color: #3F3F3F;
@@ -64,6 +69,7 @@ button:hover {
 }
 
 #workspaces button {
+    all: unset;
     font-family: "Tengwar Annatar";
     font-size: 15px;
     padding: 0 5px;
