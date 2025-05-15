@@ -1,2 +1,2 @@
 # dotfiles
-dotfiles for hyprland environment
+dotfiles for hyprland environment.
